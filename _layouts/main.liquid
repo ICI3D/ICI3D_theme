@@ -1,13 +1,13 @@
 <!DOCTYPE html>
 <html lang="en" class="fullscreen">
-{%include head.html%}
-  <body>
+{% include head.html %}
+<body>
 	<!-- WRAPPER -->
-	 <div class="wrapper">
-     {%include navbar.html%}
-     {%include hero.html%}
-     {%include mission.html%}
-     <!-- PAGE CONTENT -->
+  <div class="wrapper">
+    {% include navbar.html %}
+    {% include hero.html %}
+    {% include mission.html %}
+    <!-- PAGE CONTENT -->
  		<div class="page-content">
  			<div class="container">
          {{ content }}
@@ -16,19 +16,12 @@
        </div>
      </div>
      <!-- END PAGE CONTENT -->
-         {% include contact.html %}
-         {% include footer.html %}
+      {% include contact.html %}
+      {% include footer.html %}
     </div>
     <!-- END WRAPPER -->
     <!-- JAVASCRIPTS -->
-    <script src="{{site.url}}/assets/js/jquery-2.1.1.min.js"></script>
-    <script src="{{site.url}}/assets/js/bootstrap.min.js"></script>
-    <script src="{{site.url}}/assets/js/plugins/slick/slick.min.js"></script>
-    <script src="{{site.url}}/assets/js/plugins/easing/jquery.easing.min.js"></script>
-    <script src="{{site.url}}/assets/js/plugins/scrollto/jquery.localscroll-1.2.7-min.js"></script>
-    <script src="{{site.url}}/assets/js/plugins/scrollto/jquery.scrollTo-1.4.3.1-min.js"></script>
-    <script src="{{site.url}}/assets/js/plugins/autohidingnavbar/jquery.bootstrap-autohidingnavbar.min.js"></script>
-    <script src="{{site.url}}/assets/js/repute-scripts.js"></script>
+    {% include jsblock.html %}
 
   </body>
 </html>

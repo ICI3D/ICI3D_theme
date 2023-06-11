@@ -1,0 +1,13 @@
+url,img,title,type,width,height,active
+https://www.sacema.org/,SACEMA_228.png,SACEMA,Consortium Institution,480,,true
+https://midasnetwork.us/,MIDAS.png,MIDAS Coordinating Center,Consortium Institution,,100,true
+https://www.uga.edu/,UGA_228.png,University of Georgia,Consortium Institution,480,,false
+https://www.aims.ac.za/,AIMS-SA.jpg,AIMS-South Africa,Institutional Partner,567,114,true
+https://cema.africa/,CEMA_UN.png,CEMA,Institutional Partner,385,114,true
+https://www.cidid.org/,CIDID_long.png,CIDID,Institutional Partner,385,114,false
+https://proctor.ucsf.edu/,Proctor.png,The Francis I. Proctor Foundation for Research in Ophthalmology,Institutional Partner,,,false
+https://www.ucsf.edu/,UCSF.png,University of California - San Francisco,Institutional Partner,175,114,false
+https://www.colby.edu/,Colby.png,Colby College,Institutional Partner,,,true
+https://www.mcmaster.ca/,McMaster.jpg,McMaster University,Institutional Partner,206,114,false
+https://www.psu.edu/,PSU.png,Pennsylvania State University,Institutional Partner,,114,true
+http://www.ufl.edu/,UF.png,University of Florida,Institutional Partner,,,false
