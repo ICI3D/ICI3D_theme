@@ -14,7 +14,7 @@ Sources += notes.md README.md
 
 ######################################################################
 
-### Makestuff
+### Makestuff (not loaded automatically for compatibility with Pearson)
 
 Sources += Makefile
 
